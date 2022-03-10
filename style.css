@@ -2,7 +2,6 @@ body {
   font-family: 'Sanchez', serif;
   margin:0;
   box-sizing: border-box;
-  padding: 0;
 }
 
 #header {
@@ -57,11 +56,10 @@ letter-spacing: 0.218182px;
     height: 55px;
     background-color: #7971E9;
     position: absolute;
-    border-style: none;
+    border-style:none;
 left: 72.45%;
 right: 19.22%;
 top: 4.50%;
-bottom: 26.67%;
 font-size: 20px;
 font-weight: 400;
 color: #F4EEFF;
@@ -74,7 +72,6 @@ color: #F4EEFF;
 left: 85.03%;
 right: 10.42%;
 top: 4.50%;
-bottom: 26.67%;
 background-color:#293942;
 border:1px solid #7971E9;
 color: #7971E9;
@@ -83,7 +80,6 @@ font-weight: 400;
 }
 
 #section1 {
-    z-index: -1;
     position: absolute;
     width: 100%;
     height: 842px;
@@ -95,7 +91,6 @@ font-weight: 400;
 }
 
 .container1 {
-    z-index: 0;
     width: 610px;
     margin:214px 0px 0px 200px;
 }
@@ -135,7 +130,66 @@ font-weight: 400;
     padding-left: 20px;
 }
 
+#brandscontainer {
+    position: static;
+    height: 180px;
+    width:100%;
+    background-color: #293942;
+    margin-top: 266px;
+}
 
+#brandimg {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #293942;
+    padding: 70px 0px;
+    height: 32px;
+    margin:0 auto;
+}
 
+.middletopcontainer {
+    position: static;
+    width: 100%;
+    height: 550px;
+    background-color: #1B262C;
+}
 
+#middletopcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    height: 530px;
+}
+
+#middletopimgcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    
+}
+
+#middletopimgcontainer img {
+    width: 25%;
+    height: 24%;
+    padding: 10px 10px;
+}
+
+#middletoptextcontainer {
+    width: 40%;
+}
+
+#middletoptextcontainer p {
+    font-size: 24px;
+    color: #616161;
+}
+
+#middletoptextcontainer h1 {
+ font-style: italic;
+ font-size: 48px;
+ line-height: 61px;
+ color: #F9F8FF;
+}
 
